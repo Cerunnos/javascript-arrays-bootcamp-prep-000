@@ -14,5 +14,6 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 function accessElementInArray(array, index){
-  return console.log(`${array}${[index]}`)
+  var selectElement=array[index]
+  return console.log(selectElement)
 }
